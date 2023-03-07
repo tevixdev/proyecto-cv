@@ -1,0 +1,19 @@
+.container-info-studies{
+    display: flex;
+}
+
+ol{
+    color: var(--grey-80);
+}
+
+h2{
+    color: var(--grey);
+}
+
+h3{
+    color: var(--grey-90);
+}
+
+div > p{
+    color: var(--grey-90);
+}

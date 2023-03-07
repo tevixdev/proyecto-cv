@@ -1,0 +1,35 @@
+.container-profile{
+    margin: 3rem 0;
+}
+
+.profile-img {
+    max-width: 300px;    
+}
+
+.wrapper-img {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.wrapper-img::before {
+    padding: 5px;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--grey);
+    z-index: 999;
+    bottom: 2px;
+    right: -9px;
+}
+
+.container-paragraph{
+    margin-top: 2rem;
+}
+
+
+    
